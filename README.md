@@ -87,3 +87,13 @@ app/Console/Commands/GenerateImageFeatureCommand.php
 1. cdon.se 于 2023-10-01 开始就没有新的数据
 2. fyndiq.se 于 2021-12-16 开始就没有新的数据
 3. elgiganten.se 和 amazon.fr 貌似从来都没有爬取过.
+
+
+## 2024-04-29 新需求
+#### 查询产品专利. 是否存在侵权
+要实现的功能是查询竞品产品是否存在专利. 如有则打上标记. 目前没有好的思路.  
+
+以下网站能查询欧盟专利:  
+https://euipo.europa.eu/eSearch/#basic
+
+以下产品是在上述网站能查得到专利的, 对应的专利号是017979784  
