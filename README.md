@@ -16,7 +16,7 @@
     - https://www.cdiscount.com/
     - https://www.worten.pt/
     - https://www.mediamarkt.de/
-    - https://www.elgiganten.se/
+    - ~~https://www.elgiganten.se/~~
 
 6. #### [Potential抓取信息增加：(Amir负责开发)](#竞关品产品爬虫相)
     - 多张图片
