@@ -71,6 +71,10 @@ AYD:
 command  
 app/Console/Commands/Competitor/CheckPotentialProductCategoryCommand.php
 app/Console/Commands/GenerateImageFeatureCommand.php
+
+目前图片特征生成的脚本正在运行. 
+运行 ps aux | grep artisan 可以看到 GenerateImageFeatureCommand 的进程.
+也可以在每天的 log 里面 grep GenerateImageFeatureCommand 看到运行到哪一个图片了.
 ```
 
 ## 竞品产品爬虫相关
