@@ -33,8 +33,6 @@ INF和AYD都有实现1688产品匹配的功能. 不过现在以AYD的为主.
 匹配alibaba的产品数据是基于竞品产品基础上实现的. 一个竞品产品要匹配20条alibaba的产品. 由于旧数据的已经匹配好了. 之后每一次的竞品数量爬取也只是每次几百条. 所以1688产品匹配的脚本可以每天一次. 目前定时任务还没开启.  
 <font color=red>注: 竞品产品的爬取之前是一个月两次, 数据量不大所以1688的脚本可以设定为一天一次. 但是需求方要求竞品产品的爬取后续要改成一天一次, 所以对应匹配1688产品的定时任务时间设定需要考虑如何设置.</font>
 ```
-
-
 command:
 app/Console/Commands/Competitor/PotentialProductMatchAlibabaProductCommand.php
 
