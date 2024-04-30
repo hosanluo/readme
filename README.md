@@ -82,7 +82,6 @@ app/Console/Commands/GenerateImageFeatureCommand.php
 以下是与2024-04-29第一次测试新的四个站点竞品爬取发现的issues:  
 1. 部分站点的产品没有实现能爬取到多张图片
 2. 缺失描述部分, 产品上架时间, 销量信息
-3. category过滤的条件是什么?  
 
 关于旧的站点issues:
 1. cdon.se 于 2023-10-01 开始就没有新的数据
